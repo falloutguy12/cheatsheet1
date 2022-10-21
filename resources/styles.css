@@ -1,0 +1,115 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+  border: 2px solid rgb(122, 122, 122);
+} 
+
+tr, th, td {
+  border: 1px solid black;
+}
+
+h1.css {
+  display: inline-block;
+  margin-bottom: 0%;
+  background-color: rgb(121, 141, 255);
+  width: 53%;
+  text-align: center;
+}
+
+h1.html {
+  display: inline-block;
+  margin-bottom: 0%;
+  background-color: rgb(220, 255, 138);
+  width: 53%;
+  text-align: center; 
+}
+
+
+.specificityHeader {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 400px;
+  width: 400px;
+  margin: 5% 40%;
+  
+}
+
+.specificityHeader img {
+  opacity: .85;
+}
+
+.centered {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  text-shadow: 1px 1px rgb(104, 104, 104);
+}
+
+.cssSpecificityContainer {
+  margin-left: 25%;
+  margin-right: 25%;
+  top: 0%;
+}
+
+.cssPropertiesContainer {
+  text-decoration: underline black;
+  display: inline-block;
+  margin: auto 40%;
+}
+
+
+.cssPropertiesContainer a {
+  color: black;
+}
+
+.cssPropertiesContainer a:hover {
+  color: blue;
+  text-shadow: 1.5px 1px rgb(175, 175, 175);
+}
+
+.cssSpecificityContainer ul {
+  list-style-type: square;
+}
+
+.tables {
+  display: block;
+  text-align: center;
+  background-color: rgba(238, 238, 238, 0.897);
+}
+
+.htmlTable {
+  display: inline-table;
+  margin-bottom: 20px;
+}
+
+.cssSelectorTable {
+  display: inline-table;
+}
+
+td[target] {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+span[target="_font"] {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cssDisplayPropertiesContainer {
+  margin-right: 50%;
+}
+
+.cssDisplayPropertiesContainer h3 {
+  bottom: 0%;
+  margin-bottom: 0;
+}
+
+.cssDisplayPropertiesContainer ul {
+  margin-top: 1;
+  top: 0%;
+}
